@@ -15,8 +15,8 @@ class Scoreboard():
         self.stats = stats
         
         # Font settings for scoring information.
-        self.text_color = (30, 30, 30)
-        self.font = pygame.font.SysFont('SimHei', 25)
+        self.text_color = (130, 30, 130)
+        self.font = pygame.font.Font("arial.ttf",23)
 
         # Prepare the initial score images.
         self.prep_score()
